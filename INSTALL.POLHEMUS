@@ -1,0 +1,63 @@
+
+
+POLHEMUS INSTALL
+======================================
+
+https://github.com/ana-GT/trackerd
+
+1) Get fxload
+
+    # apt-get install fxload
+
+2) Get libusb-1.0
+
+    # apt-get install libusb-1.0-0-dev
+    
+    or manually
+    
+    $ wget ftp://ftp.polhemus.com/pub/Linux_tools/libusb-1.0.0.tar.bz2
+    $ tar -xjf libusb-1.0.0.tar.bz2
+    $ cd libusb-1.0.0
+    $ ./configure
+    $ make
+    # make install
+
+3) Install Linux Driver for Polhemus (piterm)
+
+    $ wget ftp://ftp.polhemus.com/pub/Linux_tools/piterm-1.0.4.tar.gz
+    $ tar -xzf piterm-1.0.4.tar.gz
+    $ cd piterm-1.0.4
+    $ ./configure
+    $ make
+    # make install
+  
+    $ ls /usr/local/share/PolhemusUsb/
+
+4) Instal rules file
+
+    $ cd piterm-1.0.4/fw.rules/
+    # cp 90-Polhemus_trkr.rules /etc/udev/rules.d/
+
+5) Reload rules.d
+
+   $ su root
+   # udevadm control --reload-rules
+   # mount --bind /dev/bus /proc/bus
+   # ln -s /sys/kernel/debug/usb/devices /proc/bus/usb/devices
+
+6) Eventually reboot OS
+
+
+POLHEMUS START
+==============
+
+1) Allumer station
+2) Voyant en facade doit s'allumer en vert
+   * Si rouge ou rouge clignotant, rapprocher les capteur de la borne
+3) Brancher cable USB
+
+
+
+
+
+

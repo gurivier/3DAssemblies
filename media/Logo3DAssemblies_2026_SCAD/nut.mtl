@@ -1,0 +1,7 @@
+# FreeCAD v1.0 build0 Arch module
+# https://www.freecad.org
+newmtl color_cccce6
+Kd 0.9803921568627451, 0.8470588235294118, 0.17254901960784313
+Tr 0.0
+d 1.0
+# Material Count: 1

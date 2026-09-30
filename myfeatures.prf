@@ -1,0 +1,19 @@
+
+LIBS += -lspnav -lX11 -lIrrlicht -lpthread
+SOURCES -= src/SpaceNavigator/client.c
+SOURCES -= src/SpaceNavigator/server.c
+SOURCES -= src/SpaceNavigator/server_thread.c
+SOURCES -= src/cartouches_stacks/AssemblyWindow.cpp
+SOURCES -= src/cartouches_stacks/CameraArea.cpp
+SOURCES -= src/cartouches_stacks/Cartouche.cpp
+SOURCES -= src/cartouches_stacks/ConfigurationWindow.cpp
+SOURCES -= src/cartouches_stacks/main.cpp
+SOURCES -= src/cartouches_stacks/TargetManager.cpp
+SOURCES -= src/cartouches_stacks/v4l2grab.c
+HEADERS -= src/cartouches_stacks/AssemblyWindow.h
+HEADERS -= src/cartouches_stacks/CameraArea.h
+HEADERS -= src/cartouches_stacks/Cartouche.h
+HEADERS -= src/cartouches_stacks/ConfigurationWindow.h
+HEADERS -= src/cartouches_stacks/TargetManager.h
+HEADERS -= src/cartouches_stacks/v4l2grab.h
+QT += widgets core gui

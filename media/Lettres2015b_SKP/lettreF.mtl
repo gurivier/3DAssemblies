@@ -1,0 +1,26 @@
+#Exported from SketchUp with ZbylsXExporter
+
+newmtl __Carpet_Diamond_Olive__Carpet_Diamond_Olive_jpg
+   Ka 1.000000 1.000000 1.000000
+   Kd   1.0000   1.0000   1.0000
+   Tr 1.0
+   Ks 1.000000 1.000000 1.000000
+   Ns   3.2000
+      map_Kd Carpet_Diamond_Olive.jpg
+
+newmtl __Color_A01_
+   Ka 1.000000 1.000000 1.000000
+   Kd   1.0000   0.0000   0.0000
+   Tr 1.0
+   Ks 1.000000 1.000000 1.000000
+   Ns   3.2000
+   
+
+newmtl __Color_I01_
+   Ka 1.000000 1.000000 1.000000
+   Kd   0.0000   0.0000   1.0000
+   Tr 1.0
+   Ks 1.000000 1.000000 1.000000
+   Ns   3.2000
+   
+

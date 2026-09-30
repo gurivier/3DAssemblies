@@ -1,0 +1,16 @@
+#Materials exported from Google Sketchup
+
+newmtl _Color_I03
+   Ka 0.000000 0.000000 0.000000
+   Kd   0.3961   0.3961   1.0000
+   Tr 1.0
+   Ks 0.000000 0.000000 0.000000
+   Ns   3.2000
+
+
+newmtl Default_Material 
+Ka 0.000000 0.000000 0.000000
+Kd 1.0 1.0 1.0 
+Tr 1.0
+Ks 0.000000 0.000000 0.000000
+Ns 3.2
