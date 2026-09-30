@@ -1,7 +1,7 @@
 
 # 3DAssemblies
 
-[Logo](doc/img/logo_3DAssemblies.png)
+![Logo](doc/img/logo_3DAssemblies.png)
 
 **3DAssemblies** is a user interface enabling bimanual 3D assemblies (i.e., 2× 6 degrees of freedom). Two 3D parts, choosen from a workspace that showcases libraries of OBJ files, can be loaded in a 3D scene and binded to bimanual input. Input is provided either by two physical passive props <sup>(1)</sup> (sensed by Polhemus Liberty) or by two 3D mice (3DConnexion SpaceNavigator), thus enabling user experiments to find the best parameters. Once bound to hands, the 3D parts' motion in the 3D scene is activated by two foot pedals that each clutch separately for the left hand and the right hand.
 
