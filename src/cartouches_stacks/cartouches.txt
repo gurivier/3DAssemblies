@@ -1,0 +1,4 @@
+1 triangle.png
+2 circle.png
+3 square.png
+4 star.png

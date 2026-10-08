@@ -1,0 +1,34 @@
+
+Qt Irrlicht: http://irrlicht.sourceforge.net/forum//viewtopic.php?t=15112&highlight=qirrlichtwidget
+
+
+[x] Irrlicht : relief mono-vision cyan et rouge
+
+[ ] Centrer la lettre F a l'origine
+
+[x] Redefinir limites (min et max) du champs de vision de la scene
+
+[x] Driver Polhemus
+
+[ ] Fonction de matching
+
+[ ] Collisions Irrlicht
+
+[ ] Plusieurs points de vues
+
+[ ] Deux fenetres (deux ecrans)
+
+[ ] UI : Boutons, Sliders, SpinButtons, Labels, Souris (boutons)
+[ ] Déplacer objects au clavier / souris
+[ ] Signaux boutons souris (boutons 6 et 7)
+[ ] Angle eclairage
+[ ] Coef vitesse rotations/translations
+ 
+[ ] Cartouches
+
+[x] Chargement de plusieurs objets 3D
+
+[ ] Fusion de deux objets 3D
+
+
+

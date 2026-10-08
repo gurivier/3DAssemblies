@@ -1,0 +1,91 @@
+
+========================
+COMPILATION DEPENDANCIES
+========================
+
+* gcc                       (>= 4.9.2)
+* g++                       (>= 4.9.2)
+* libspnav-dev              (>= 0.2.2-1)
+* Irrlicht                  (>= 1.8.1)
+* Qt                        (>= 5.3.2)
+* ( libqt5x11extras5-dev )
+* libusb-1.0-0-dev
+
+    # apt-get install gcc g++ libspnav-dev libirrlicht-dev libqt5x11extras5-dev qtbase5-dev qt5-qmake qttools5-dev-tools qtchooser libqt5x11extras5-dev libusb-1.0-0-dev
+    # apt-get install spacenavd spnavcfg
+
+    $ qmake -version
+    $ qtchooser -l
+    $ qtchooser -qt 5
+
+======================
+EXECUTION DEPENDANCIES
+======================
+
+* Polhemus Driver
+    $ wget ftp://ftp.polhemus.com/pub/Linux_tools/piterm-1.0.4.tar.gz
+    $ tar -xzf piterm-1.0.4.tar.gz
+    $ cd piterm-1.0.4
+    $ ./configure
+    $ make
+    # make install
+    # ls /usr/local/share/PolhemusUsb/
+    # cd fw.rules/
+    # cp 90-Polhemus_trkr.rules /etc/udev/rules.d/
+    # udevadm control --reload-rules
+    # mount --bind /dev/bus /proc/bus
+    # ln -s /sys/kernel/debug/usb/devices /proc/bus/usb/devices
+    # reboot
+
+==================
+OTHER DEPENDANCIES
+==================
+
+* Virtual Box + Handy Linux 
+* xrandr + arandx
+* xawtv
+
+===============
+GUI DEVELOPMENT
+===============
+
+* Qt Designer
+
+===========
+COMPILATION
+===========
+
+$ qmake
+$ make
+
+================
+EXECUTION LAUNCH
+================
+
+1) Terminal 1 : launch application
+
+  ./Assemblies
+
+2) Start Virtual Machine (Handy Linux)
+
+   a) Plug the first SpaceNavigator
+
+   b) Plug the USB wire of the SpaceNavigator in the Virtual Machine
+
+      (3Dconnexion SpaceNavigator [0435])
+
+   c) Launch the client
+
+      sh client_spnav1.sh
+
+* Back to the host, Terminal 2 :
+
+   a) Plug the USB wire of the second SpaceNavigator
+
+   b) Launch the client
+
+      sh client_spnav2.sh
+
+
+
+
